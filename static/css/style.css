@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.h3 {
+  font-family:sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color:rgb(1, 1, 17);
+
+}
+
+/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 30px;  
+  overflow: auto;
+}
+
+/* The footer is positioned at the bottom of the page */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100px;
+  background: #105fc5;
+}
+
+/* The code styles the text at the bottom of the footer */
+.footer > .bottom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background: #00060c;
+  color: #fff
+}
+
+.navbar {
+  padding: 5px;
+  margin: 0;  
+  background-color:#105fc5;  
+}
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  color:aliceblue;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* This CSS styles the syringe icon in the navbar */
+.nav-logo {
+  padding: 5px;
+  position: box;
+  bottom: 5px;
+  left: 150px;
+  width: 80px;  
+}
+
+.demo-icon {
+  padding: 5px;
+  position: box;
+  bottom: 5px;
+  left: 150px;
+  width: 80px;
+}
+
+.demo_header {
+  display: flex;  
+  background-color:rgb(243, 227, 157);
+  border-radius: 5px;  
+}
+
+.demo_header2 {
+  display: flex;  
+  background-color:rgb(212, 245, 152);
+  border-radius: 5px;  
+}
+
+.demo_header3 {
+  display: flex;  
+  background-color:rgb(158, 248, 206);
+  border-radius: 5px;  
+}
+
+.demo_header4 {
+  display: flex;  
+  background-color:rgb(132, 153, 246);
+  border-radius: 5px;  
+}
+
+.demo_header5 {
+  display: flex;  
+  background-color:rgb(164, 150, 241);
+  border-radius: 5px;  
+}
+
+.demo_header6 {
+  display: flex;  
+  background-color:rgb(237, 215, 249);
+  border-radius: 5px;  
+}
+
+.demo_fact {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 237, 237);
+  border-radius: 5px;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+
+
+/* Search button styling */
+.btn.btn-default {
+  font-family: sans-serif;
+  font-size:100%;
+  line-height: 1.15;
+  margin: 0;
+  background-color: rgba(27, 25, 25, 0.897);
+  height: 40px;
+  width: 100%;
+  border-radius: 3px;
+  transition: all 0.2s ease-out, color, 0.2s ease-out;
+  cursor: pointer;
+  font-weight: bold;  
+}
+
+.btn.btn-default :hover {
+  cursor: pointer;
+  background-color: #f50404;
+}
+
+
+
+
+
+
+.panel-heading {
+  display: block;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: center;  
+}
+
+.panel-body {
+  background-color:#031655;
+  display:block;
+}
+
+
+
+}
+
+/* media queries which will only be activated at specific screen sizes */
+@media (max-width: 800px) {
+  #table-area td {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  #table-area thead {
+    display: none;
+  }
+
+  
+
+.section-divider {
+  height: 0.5rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: .75rem;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  transition: transform .25s ease-in-out;
+  fill: currentColor;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: .75rem;
+}
+
+.rounded-4 { border-radius: .5rem; }
+.rounded-5 { border-radius: 1rem; }
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.c-chart-gauge__needle-base, .c-chart-gauge__needle {
+  fill: #555555;
+}
+
+.c-chart-gauge__gradient-stop1 {
+  stop-color: red;
+}
+
+.c-chart-gauge__gradient-stop2 {
+  stop-color: orange;
+}
+
+.c-chart-gauge__gradient-stop3 {
+  stop-color: orange;
+}
+
+.c-chart-gauge__gradient-stop4 {
+  stop-color: green;
+}
