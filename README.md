@@ -1,5 +1,3 @@
-**# Second_Project_COVID19**
-
 Objective:  Calculate the timeframe needed to reach a Herd Inmunity Threshold (HIT) based solely on vaccination against COVID-19 in each county in Florida.  
 
 Data Source: CDC COVID-19 Vaccination Dashboard updated daily at 2000 EST
@@ -17,6 +15,6 @@ Methodology:
   - Create an appropriate easy-to-read dashboard to drive the message
 
 Challenges:
-- Automating the scrapping is a new challenge of this project
+- Automating the scrapping 
 - Manipulating the data from csv to json files for ease of publication
 - css styling of the dashboard using bootstrap
